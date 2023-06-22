@@ -6,11 +6,13 @@ import Navbar from "./Components/Home/Navbar";
 import PopularBrands from "./Components/Home/PopularBrands";
 import PreOrder from "./Components/Home/PreOrder";
 import ProductSeller from "./Components/Home/ProductSeller";
+import ShopTrending from "./Components/Home/ShopTrending";
 function App() {
   return (
     <>
      <Navbar/>
      <Header/>
+     <ShopTrending/>
      <PreOrder/>
      <div className="bg-[#F4FCFF]">
      <PopularBrands/>

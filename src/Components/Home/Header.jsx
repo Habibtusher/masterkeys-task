@@ -7,11 +7,22 @@ const Header = () => {
   return (
     <div className="w-full hero-bg bg-no-repeat bg-cover">
       <div className="container mx-auto bg-vector w-full  bg-no-repeat bg-contain h-full">
-        <p>dfasdashdasdash</p>
+       <div className="pt-3">
+        <div className="flex gap-8 items-center justify-center text-xs font-normal cursor-pointer text-[#5F5F5F]">
+          <a>Jewelry & Accessories</a>
+          <a className="border-b-2 border-[#041318]">Clothing & Shoes</a>
+          <a>Home & Living</a>
+          <a>Wedding & Party</a>
+          <a>Toys & Entertainment</a>
+          <a>Art & Collectibles</a>
+          <a>Craft Supplies & Tools</a>
+          <a>Vintage</a>
+        </div>
+       </div>
         <div className="grid grid-cols-5">
           <div
             style={{ height: "670px" }}
-            className="col-span-2 flex flex-col  justify-center"
+            className=" col-span-2 flex flex-col  justify-center"
           >
             <p className="font-medium text-xs">
               100% QUALITY, 100% SATISFACTION
@@ -47,15 +58,15 @@ const Header = () => {
             >
               <div className="flex justify-center items-center header-mid-circle">
                 <img src={camera} alt="" />
+              </div>{" "}
+              <div className="flex items-center  cursor-pointer text-blue-400 mt-5">
+                <p className="mr-3 text-blue-700 font-normal text-sm">PPEV</p>
+                <BsDot className="text-3xl " />
+                <BsDot className="text-4xl text-blue-700" />
+                <BsDot className="text-3xl" />
+                <BsDot className="text-3xl" />
+                <p className="ml-3 text-blue-700 font-normal text-sm">NEXT</p>
               </div>
-            </div>
-            <div className="flex items-center  cursor-pointer text-blue-400">
-              <p className="mr-3 text-blue-700 font-normal text-sm">PPEV</p>
-              <BsDot className="text-3xl "/>
-              <BsDot className="text-3xl text-blue-700"/>
-              <BsDot className="text-3xl"/>
-              <BsDot className="text-3xl"/>
-              <p className="ml-3 text-blue-700 font-normal text-sm">NEXT</p>
             </div>
           </div>
           <div className="flex flex-col  justify-center items-center gap-20 font-semibold text-xs">
