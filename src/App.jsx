@@ -11,16 +11,14 @@ import ShopTrending from "./Components/Home/ShopTrending";
 function App() {
   return (
     <>
-     <Navbar/>
-     <Header/>
-     <ShopTrending/>
-     <ShopByCategory/>
-     <PreOrder/>
-     <div className="bg-[#F4FCFF]">
-     <PopularBrands/>
-     </div>
-     <ProductSeller/>
-     <Footer/>
+      <Navbar />
+      <Header />
+      <ShopTrending />
+      <ShopByCategory />
+      <PreOrder />
+      <PopularBrands />
+      <ProductSeller />
+      <Footer />
     </>
   );
 }

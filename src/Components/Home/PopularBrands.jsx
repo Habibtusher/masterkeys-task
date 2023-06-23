@@ -11,7 +11,7 @@ import instra from "../../assets/pbin.png";
 import tw from "../../assets/pbtw.png";
 const PopularBrands = () => {
   return (
-    <div className="grid grid-flow-row container py-6 mx-auto gap-10">
+    <div className="grid grid-flow-row container py-6 mx-auto gap-10 bg-[#F4FCFF]">
       <div className="grid grid-cols-3 gap-10">
         <div className="flex justify-end col-span-2">
           <div className="popular-brands-top w-full bg-no-repeat bg-contain p-8 flex justify-start items-center">
